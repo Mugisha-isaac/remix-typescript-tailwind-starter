@@ -1,0 +1,32 @@
+
+*, *::after, *::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;    
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    box-sizing: border-box;
+    padding: 3rem;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.nav{
+    /*   */
+    display: grid;
+    place-items: center;
+}
+.nav>ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 1rem;
+    font-size: 2rem;    
+}
